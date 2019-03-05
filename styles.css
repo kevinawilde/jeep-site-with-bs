@@ -1,3 +1,9 @@
+body{
+	background-color: black;
+}
+#navigationBar{
+	background-color: black;
+}
 #image1 {
 	background: url("Desktop.jpg.image.2880.jpg");
 	background-size: contain;
@@ -22,4 +28,15 @@
 	background-size: contain;
 	height: 37em;
 	background-repeat: no-repeat;
+}
+#bodyDiv {
+	background-color: #222222;
+}
+#carList {
+	margin: auto;
+
+}
+.card {
+	border: none;
+	border-radius: 0;
 }
