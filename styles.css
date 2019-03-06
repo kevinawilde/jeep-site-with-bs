@@ -30,6 +30,11 @@ body{
 		height: 37em;
 		background-repeat: no-repeat;
 	}	
+	#offerCards {
+		padding-top: 2em;
+		padding-bottom: 2em;
+		background-color: white;
+	}
 }
 
 @media screen and (max-width: 576px) {
@@ -93,6 +98,10 @@ body{
 		background-position: center;
 		background-repeat: no-repeat;
 	}
+	#offerCards {
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
 } 
 #bodyDiv {
 	background-color: #222222;
@@ -112,11 +121,16 @@ body{
 #offerCards {
 	background-color: #D1D1D1;
 	color: white;
+	margin: auto;
 }
+
 .black-background {
 	background-color: black;
 	color: white;
 }
 .footer-background {
 	background-color: #212121;
+}
+.offer-bg-color {
+	background-color: #D1D1D1;
 }
