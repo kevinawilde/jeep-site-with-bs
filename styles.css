@@ -4,31 +4,96 @@ body{
 #navigationBar{
 	background-color: black;
 }
-#image1 {
+@media screen and (min-width: 769px){
+	#image1 {
 	background: url("Desktop.jpg.image.2880.jpg");
 	background-size: contain;
 	height: 37em;
 	background-repeat: no-repeat;
 	
+	}
+	#image2 {
+		background: url("Jeep_MotorTrend2018_Wrangler_BHP_Desktop_V2.jpg.image.2880.jpg");
+		background-size: contain;
+		height: 37em;
+		background-repeat: no-repeat;
+	}
+	#image3 {
+		background: url("Jeep_Winter2018_Cherokee_desktop_1.jpg.image.2880.jpg");
+		background-size: contain;
+		height: 37em;
+		background-repeat: no-repeat;
+	}
+	#image4 {
+		background: url("Jeep_Winter2018_Renegade_desktop_BHP_V3.jpg.image.2880.jpg");
+		background-size: contain;
+		height: 37em;
+		background-repeat: no-repeat;
+	}	
 }
-#image2 {
-	background: url("Jeep_MotorTrend2018_Wrangler_BHP_Desktop_V2.jpg.image.2880.jpg");
+
+@media screen and (max-width: 576px) {
+	#image1 {
+	background: url("mobile-jeep-1.jpg");
 	background-size: contain;
-	height: 37em;
+	height: 45em;
+	background-position: center;
 	background-repeat: no-repeat;
-}
-#image3 {
-	background: url("Jeep_Winter2018_Cherokee_desktop_1.jpg.image.2880.jpg");
+	
+	}
+	#image2 {
+		background: url("mobile-wrangler.jpg");
+		background-size: contain;
+		height: 45em;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	#image3 {
+		background: url("mobile-cherokee.jpg");
+		background-size: contain;
+		height: 45em;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	#image4 {
+		background: url("mobile-winter-renegade.jpg");
+		background-size: contain;
+		height: 45em;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+} 
+@media screen and (min-width: 577px) and (max-width: 768px) {
+	#image1 {
+	background: url("mobile-jeep-1.jpg");
 	background-size: contain;
-	height: 37em;
+	height: 50em;
+	background-position: center;
 	background-repeat: no-repeat;
-}
-#image4 {
-	background: url("Jeep_Winter2018_Renegade_desktop_BHP_V3.jpg.image.2880.jpg");
-	background-size: contain;
-	height: 37em;
-	background-repeat: no-repeat;
-}
+	
+	}
+	#image2 {
+		background: url("mobile-wrangler.jpg");
+		background-size: contain;
+		height: 50em;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	#image3 {
+		background: url("mobile-cherokee.jpg");
+		background-size: contain;
+		height: 50em;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	#image4 {
+		background: url("mobile-winter-renegade.jpg");
+		background-size: contain;
+		height: 50em;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+} 
 #bodyDiv {
 	background-color: #222222;
 }
@@ -36,7 +101,22 @@ body{
 	margin: auto;
 
 }
+#vehicles-title {
+	background-color: white;
+	color: black;
+}
 .card {
 	border: none;
 	border-radius: 0;
+}
+#offerCards {
+	background-color: #D1D1D1;
+	color: white;
+}
+.black-background {
+	background-color: black;
+	color: white;
+}
+.footer-background {
+	background-color: #212121;
 }
