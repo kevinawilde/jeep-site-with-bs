@@ -144,6 +144,20 @@ body{
 .offer-bg-color {
 	background-color: #D1D1D1;
 }
+#blue-book{
+	background-color: #D1D1D1;
+	margin: auto;
+	align-items: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.blue-book-bg-color{
+	background-color: #D1D1D1;
+}
+#bottom-links {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
 .orangy-button {
 	background-color: #FFBA00;
 	padding: .5em 2em; 
