@@ -158,6 +158,12 @@ body{
 	padding-top: 2em;
 	padding-bottom: 2em;
 }
+#vehicles1 li {
+	border: none;
+	border-radius: 0;
+	background-color: black;
+	color: white;
+}
 .orangy-button {
 	background-color: #FFBA00;
 	padding: .5em 2em; 
